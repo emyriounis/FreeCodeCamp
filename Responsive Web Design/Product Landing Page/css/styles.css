@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+  width:100;
+  padding: 20px;
+  background-color: #eee;
+    margin: 10px;
+  position: fixed;
+}
+
+.nav-link {
+    padding: 2vw;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 50px;
+}
+
+#email {
+    padding: 2px;
+    margin: 20px 0 10px 0;
+    width: 30vw;
+    text-align: left;
+}
+
+#submit {
+    padding: 5px;
+    font-weight: bold;
+    background-color: orange;
+    border: 0;
+}
+
+.line {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.icon {
+    color: orange;
+    width: 20%;
+}
+
+h2 {
+    padding-bottom: 5px
+}
+
+#cards {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 20px;
+    width: 33.333333%;
+}
+
+.card > * {
+    padding: 10px;
+}
+
+.head {
+    background-color: lightgray;
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+button {
+    border: 0;
+    background-color: orange;
+    margin: 15px;
+}
+  
+@media (max-width: 700px) {
+    #header-img {
+        width: 50vw;
+    }
+
+    nav {
+        margin: 10px;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 5px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon {
+        visibility: hidden;
+    }
+
+    #video {
+        width:300px;
+        height:170px; 
+    }
+}
+
+@media (min-width: 701px) {
+    nav {
+        float: right;
+    }
+
+    #header-img {
+        float: left;
+        width: 300px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    #video {
+        width:600px;
+        height:350px; 
+    }
+}
+
+footer {
+    padding: 10px;
+    width: 100%;
+    float: right;
+    background-color: lightgray;
+}
+
+#a, #b {
+    text-align: right;
+    align-content: right;
+    align-items: right;
+    padding: 3px;
+}
+
+#a > * {
+    padding: 10px;
+}
+
+#b {
+    font-size: 0.8em;
+}
+
+span {
+    padding: 10px;
+}

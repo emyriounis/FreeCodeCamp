@@ -1,0 +1,49 @@
+* {
+    background-color: lightyellow;
+  }
+  
+  h1, h2, h6{
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #img-div {
+    background-color: white;
+  }
+  
+  #image {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  #tribute-info {
+    max-width: 40%;
+    display: block;
+    margin: auto;
+  }
+  
+  #quote {
+    font-style: italic;
+  }
+  
+  #year {
+    font-weight: bold;
+  }
+  
+  li {
+    padding: 7px;
+  }
+  
+  #footer {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
